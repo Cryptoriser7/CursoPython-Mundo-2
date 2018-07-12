@@ -18,11 +18,11 @@ print('IMC: {:.2f}'.format(imc))
 print()
 if imc <= 18.4:
     print('Abaixo de Peso')
-elif imc >= 18.5 <= 24.9:
+elif 18.5 <= imc <= 24.9:
     print('Peso Ideal')
-elif imc >= 25.0 <= 29.9:
+elif 25 <= imc <= 29.9:
     print('Sobre Peso')
-elif imc >= 30.0 <= 39.9:
+elif 30.0 <= imc <= 39.9:
     print('Obesidade')
 elif imc >= 40.0:
     print('Obesidade Morbida')

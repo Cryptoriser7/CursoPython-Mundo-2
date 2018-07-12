@@ -12,7 +12,7 @@ print('Média: {:.1f}'.format(media))
 
 if media <= 4.9:
     print('Nota inferior a 5.0. REPROVADO')
-elif media >= 5.0 and media <= 6.9:
+elif 5.0 <= media <= 6.9:
     print('Nota compreendida entre 5 e 7. RECUPERAÇÂO')
 elif media >= 7.0:
     print('Nota superior a 7.0. APROVADO!!')
